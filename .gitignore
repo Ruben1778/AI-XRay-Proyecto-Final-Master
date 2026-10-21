@@ -1,0 +1,20 @@
+# Entorno virtual y Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datos e imágenes pesadas
+data/chest_xray/
+data/manifest.csv
+data/manifest_split.csv
+
+# Artefactos de entrenamiento y MLflow
+models/*.keras
+models/artifacts_*
+mlruns/
+*.db
+
+# Archivos de configuración de IDE / Sistema
+.vscode/
+.DS_Store
